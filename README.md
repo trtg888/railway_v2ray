@@ -143,4 +143,8 @@ addEventListener(
 * 请参考 [CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) `推荐`
 * 请参考 [better-cloudflare-ip](https://github.com/badafans/better-cloudflare-ip)
 
+## 🌐 多用户使用说明
 
+服务默认监听 443 端口，路径为 `/vless`，每个用户一个 UUID，由环境变量 `UUIDS` 控制。
+
+### ✍️ 设置方式（Railway 环境变量）
